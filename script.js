@@ -15,8 +15,9 @@ function leerIntento(){
     intento = intento.toUpperCase(); 
     return intento;
 }
-function intentar(){
-    aleatorio()
+async function intentar(){
+    
+    await aleatorio()
     console.log(palabra)
     const GRID = document.getElementById("grid");
     const INTENTO = leerIntento()
